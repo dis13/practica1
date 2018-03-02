@@ -2,7 +2,7 @@
 
   Numero=Numero%2;
 
-    if(Numero==0){                                   //PAR/IMPAR//
+    if(Numero==0){                                   
  	
     System.out.println("\nEl Numero ": "+" Es Par");
  	
@@ -13,8 +13,8 @@
 
 
 
-/*******************************************************************************************************/   
-    int a = 1;                                       //PRIMO/NO PRIMO
+ 
+    int a = 1;                                       
     for(int i=1; i<=Numero; i++){
     	
     if (Numero % i==0){
@@ -33,9 +33,9 @@
     areatexto.append("\nEl Numero:" Es Primo");			
     }
 
-/**********************************************************************************************************/	
-    int Numero4=0;                               //SUMATORIA DE N NUMERO ASTA N 
-    
+
+    int Numero4=0;                               
+   
     if(Sumatoria>0){
     		
     for(int i=1; i<=Sumatoria; i++){
@@ -46,7 +46,6 @@
     System.out.println("\nLa sumatoria de:"   "+Numero4);    
     }
 
-***********************************************************************************************************/
     int factorial = 1;
     
     while(Numero2!=0){
